@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1024px) {
+    /* model box */
+    div#myModal {
+        margin-left: 1%;
+    }    
+    /* background image */
+    .container-fluid-background-image {
+        margin-top: -4%;
+    }
+    /* nav bar */
+    nav.navbar.navbar-expand-md.bg-dark.navbar-dark {
+        left: 0;
+        width: 100%;
+    }
+    /* row button */
+    button.btn.btn-basic.show {
+        width: 32%;
+    }
+    button.btn.btn-basic.hide {
+        width: 32%;
+    }
+    /* hr line */
+    hr.line-card {
+        width: 85%;
+    }
+    /* progress bar */
+    .container.progress-bar {
+        margin-top: 7%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /* background image */
+.container-fluid-background-image {
+    margin-top: -5%;
+}
+/* banner-content */
+.banner-content {
+    width: 47%;
+}
+/* side icon */
+.container.side-icon {
+    width: 31%;
+}
+/* nav bar */
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark {
+   left: 0;
+    width: 100%;
+}
+/* row button */
+button.btn.btn-basic.show {
+    width: 37%;
+    
+}
+button.btn.btn-basic.hide {
+    width: 37%;
+}
+/* hr line */
+hr.line-card {
+    width: 80%;
+}
+/* progres bar */
+.container.progress-bar {
+    margin-top: 8%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    /* background image */
+    .container-fluid-background-image {
+        margin-top: -11%;
+        height: 45%;
+    }
+    .banner-content h1 {
+        line-height: 1;
+        font-size: 28px;
+    }
+    .banner-content {
+        width: 47%;
+        margin-top: 5%;
+    }
+/* nav bar */
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark {
+    width: 100%;
+    left: 0%;
+}
+
+
+/* about me */
+img.about-us-image {
+    margin-left: 8px;
+}
+
+.row.background {
+    height: 1%;
+    margin-top: 23%;
+}
+
+button.btn.btn-basic.show {
+    width: 36%;
+}
+
+button.btn.btn-basic.hide {
+    width: 36%;
+}
+/* line card hr */
+hr.line-card {
+    width: 74%;
+}
+/* skill */
+.container.progress-bar {
+    margin-top: 10%;
+}
+   /* model box */
+    div#myModal {
+        margin-left: 1%;
+    }    
+    ul.carousel-indicators {
+        z-index: 1;
+    }
+    /* galary */
+    .col-lg-3.col-md-4.col-sm-6.col-xs-12.gallary {
+        height: 500px;
+    }
+    /* skill content */
+    .content-circle {
+        margin-left: 33%;
+        margin-top: -4px;
+    }
+    /* services */
+    
+.image-content-hover {
+    padding: 17%;
+    overflow: hidden;
+}
+
+
+}
+@media only screen and (max-width: 320px) {
+    /* background image */
+    .container-fluid-background-image {
+        margin-top: 8%;
+        height: 53%;
+    }
+   /* banner content */
+.banner-content {
+    width: 101%;
+    margin-top: 3%;
+}
+.banner-content h1 {
+    line-height: 37px;
+    
+}
+.banner-content p {
+    line-height: 22px;
+}
+/* side icon */
+.container.side-icon {
+    width: 100%;
+}
+/* nav bar */
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark {
+    width: 100%;
+    left: 0%;
+}
+/* about me collapse button */
+button.btn.btn-basic.show {
+    width: 45%;
+}
+button.btn.btn-basic.hide {
+    width: 45%;
+}
+/* about img */
+img.about-us-image {
+    margin-left: 8px;
+    margin-top: 21%;
+}
+.row.background {
+    height: 1%;
+}
+h1.about-us-content {
+    margin-top: 0%;
+}
+p.responsive-content {
+    padding: 2%;
+}
+/*  hr line card*/
+hr.line-card {
+    width: 47%;
+}
+/* Progress bar */
+.container.progress-bar {
+    margin-top: 18%;
+}
+/* skill */
+.content-circle {
+    margin-left: 33%;
+}
+/* sub footer */
+ul.carousel-indicators {
+    z-index: 1;
+}
+}

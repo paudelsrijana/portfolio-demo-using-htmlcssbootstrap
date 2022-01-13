@@ -1,0 +1,455 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* nav */
+
+.bg-dark {
+    background-color: #c0cc5d!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+/* button:focus {
+    outline: none;
+} */
+
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    width: 84%;
+    left: 8%;
+    padding: 0px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-menu.show {
+    background-color: #c0cc5d;
+    background-color: ;
+    border-style: none;
+    padding-bottom: 0;
+}
+
+a.dropdown-item {
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+a.nav-link {
+    border-left: 1px solid black;
+}
+
+a.nav-link.home {
+    border-left: none;
+}
+
+
+/* banner */
+
+.container-fluid-background-image {
+    background-image: url(../img/poonhillslider.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    z-index: 9;
+    margin-top: -3%;
+}
+
+.banner-content {
+    color: white;
+    width: 29%;
+    text-align: center;
+}
+
+.banner-content h1 {
+    background-color: #c0cc5dd1;
+    padding: 0;
+    margin-bottom: 0px;
+    font-weight: 100;
+    font-family: serif;
+}
+
+.banner-content p {
+    background-color: #00000099;
+    padding: 3px;
+}
+
+
+/* about */
+
+.col-lg-6.col-md-6 img.about-us-image {
+    width: 100%;
+    height: 64%;
+    object-fit: cover;
+}
+
+.container.about-us {
+    margin-top: 37px;
+    padding-top: 162px;
+}
+
+img.about-us-image {
+    width: 100%;
+    height: 100%;
+}
+
+.col-lg-6.col-md-12.about-background {
+    background-color: #9e9e9ee6;
+}
+
+.row.background {
+    color: white;
+    text-align: justify;
+    height: 385px;
+}
+
+.col-lg-6.col-md-6 p {
+    margin-top: 18px;
+}
+
+h1.about-us-content {
+    color: #c0cc5d;
+}
+
+/
+/* cards */
+
+.gallary {
+    padding: 5px 2px;
+}
+
+hr.line-card {
+    /* position: relative; */
+    width: 66%;
+    margin-left: 0;
+    color: 2px solid black;
+}
+
+h2.side-content-hr {
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    color: #c0cc5d;
+}
+
+.container.card {
+    margin-top: 23px;
+    border-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.card-size {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    padding: 0;
+}
+
+.card-content {
+    color: white;
+    text-align: center;
+    margin-top: -7%;
+}
+
+.card-content a.btn.btn-info {
+    border-style: none;
+    background-color: #c0cc5d;
+    border-radius: 0;
+    width: 69%;
+    color: white;
+}
+
+.row.second-row {
+    margin-top: 2%;
+}
+
+
+/* services */
+
+.row.Wrap-box {
+    /* padding: 20px; */
+}
+
+section.image-service-box {
+    width: 100%;
+}
+
+.button-price button {
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: 9px 37px;
+}
+
+.image-box {
+    /* margin-left: 40px; */
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+img.price-box-img {
+    width: 100%;
+    height: 242px;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+
+.image-box:hover img.price-box-img {
+    transform: scale(1.1);
+}
+
+.image-box:hover .image-content-hover {
+    transform: scale(1.1);
+}
+
+.image-content-hover {
+    background-color: #0000008f;
+    color: white;
+    padding: 54px;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.3s;
+}
+
+
+/* table upper content and hr */
+
+h2.side-content-hr-work {
+    top: -18px;
+    position: absolute;
+    color: #c0cc5d;
+    right: -5px;
+}
+
+.container.services-side-stick {
+    height: 21px;
+    position: relative;
+}
+
+
+/* table */
+
+.container.services {
+    padding: 0;
+}
+
+table.table {
+    margin-top: 18px;
+    border-style: ridge;
+}
+
+thead.table-head tr th {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+table.table tbody tr td {
+    border: 1px solid black;
+}
+
+.container.table {
+    padding: 0;
+    margin-top: 2%;
+    position: relative;
+}
+
+input#myInput {
+    border: 1px solid black;
+}
+
+
+/* side icon */
+
+ul.side-icon-li li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+    background-color: #4b4442;
+}
+
+.container.side-icon {
+    width: 17%;
+    background-color: #c0cc5d;
+    padding: 4px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+ul.side-icon-li li a {
+    color: white;
+    padding: 3px;
+    width: 23px;
+    text-align: center;
+}
+
+ul.side-icon-li {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+/* skill */
+
+.progress {
+    margin-top: 1%;
+    width: 80%;
+    height: 24px;
+    margin-left: 9%;
+}
+
+.container.progress-bar {
+    background-color: #a8a8a8;
+    width: 100%;
+    height: 214px;
+    margin-top: 6%;
+    pox: revert;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #c0cc5d;
+}
+
+
+/* content-skill */
+
+p.circle {
+    background-color: #c0cc5d;
+    width: 196%;
+    height: 85px;
+    border-radius: 66%;
+    color: white;
+    line-height: 81px;
+    font-size: 156%;
+}
+
+.content-circle {
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 2%;
+}
+
+
+/* footer */
+
+.container-fluid.footer {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+
+
+/*links*/
+
+img.carouse-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.links h4 {
+    text-align: center;
+}
+
+
+/* sub footer */
+
+.sub-footer {
+    background-color: #4b4442de;
+    padding: 15px;
+    color: white;
+}
+
+.sub-footer button {
+    background-color: azure;
+}
+
+.map iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.footer-div h2 {
+    color: #c0cc5d;
+}
+
+.footer-list ul li {
+    list-style: none;
+}
+
+.footer-list ul {
+    padding: 0;
+}
+
+i.sub-footer-icon {
+    padding: 7px;
+}
+
+
+/* caurosal */
+
+.owl-nav button {
+    width: 40px;
+    height: 40px;
+    background-color: #80cc0c !important;
+    color: white !important;
+}
+
+.owl-nav {
+    position: absolute;
+    bottom: 47%;
+    width: 100%;
+    display: block;
+}
+
+button.owl-prev {
+    left: 0;
+}
+
+button.owl-next {
+    right: 0 !important;
+    position: absolute;
+}
+
+img.img-responsive.carousel-height {
+    width: 100%;
+}
+
+.carousel-height {
+    height: 184px;
+    object-fit: cover;
+}
+
+.container-fluid.carouse-background {
+    background-color: #232323;
+    padding: 0px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    width: 100%;
+    line-height: 0;
+}
+
+.owl-item {
+    border: 3px solid #7ce81734;
+}
